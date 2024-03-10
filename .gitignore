@@ -34,3 +34,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.idea/
+
+# node, yarn
+node_modules
+yarn-error.log
+
+# ビルド出力先
+dist/
+
+# Lambdaスクリプト一時格納用ディレクトリ
+.lambda_script/
+
